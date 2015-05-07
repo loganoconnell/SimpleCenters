@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+
+<plist version="1.0">
+
+<dict>
+
+    <key>items</key>
+
+    <array>
+
+	<dict>
+	    <key>label</key>		<string>Sections</string>
+            <key>cell</key>             <string>PSGroupCell</string>
+        </dict>
+
+	<dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>default</key>          <false/>
+            <key>defaults</key>         <string>com.tweaksbylogan.SimpleCentersPrefs</string>
+            <key>key</key>              <string>hideSettings</string>
+            <key>label</key>            <string>Hide toggles section</string>
+            <key>PostNotification</key> <string>com.tweaksbylogan.SimpleCentersPrefs/settingschanged</string>
+        </dict>
+
+	<dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>default</key>          <false/>
+            <key>defaults</key>         <string>com.tweaksbylogan.SimpleCentersPrefs</string>
+            <key>key</key>              <string>hideBrightness</string>
+            <key>label</key>            <string>Hide brightness section</string>
+            <key>PostNotification</key> <string>com.tweaksbylogan.SimpleCentersPrefs/settingschanged</string>
+        </dict>
+
+	<dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>default</key>          <false/>
+            <key>defaults</key>         <string>com.tweaksbylogan.SimpleCentersPrefs</string>
+            <key>key</key>              <string>hideMedia</string>
+            <key>label</key>            <string>Hide media section</string>
+            <key>PostNotification</key> <string>com.tweaksbylogan.SimpleCentersPrefs/settingschanged</string>
+        </dict>
+
+	<dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>default</key>          <false/>
+            <key>defaults</key>         <string>com.tweaksbylogan.SimpleCentersPrefs</string>
+            <key>key</key>              <string>hideAirStuff</string>
+            <key>label</key>            <string>Hide AirDrop/AirPlay section</string>
+            <key>PostNotification</key> <string>com.tweaksbylogan.SimpleCentersPrefs/settingschanged</string>
+        </dict>
+
+	<dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>default</key>          <false/>
+            <key>defaults</key>         <string>com.tweaksbylogan.SimpleCentersPrefs</string>
+            <key>key</key>              <string>hideQuickLaunch</string>
+            <key>label</key>            <string>Hide Quick Launch section</string>
+            <key>PostNotification</key> <string>com.tweaksbylogan.SimpleCentersPrefs/settingschanged</string>
+        </dict>
+		
+	<dict>
+	    <key>label</key>		<string>Conditional Sections</string>
+            <key>cell</key>             <string>PSGroupCell</string>
+        </dict>
+
+	<dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>default</key>          <true/>
+            <key>defaults</key>         <string>com.tweaksbylogan.SimpleCentersPrefs</string>
+            <key>key</key>              <string>hideConditionalMedia</string>
+            <key>label</key>            <string>Hide media section if no music</string>
+            <key>PostNotification</key> <string>com.tweaksbylogan.SimpleCentersPrefs/settingschanged</string>
+        </dict>
+
+	<dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>default</key>          <true/>
+            <key>defaults</key>         <string>com.tweaksbylogan.SimpleCentersPrefs</string>
+            <key>key</key>              <string>hideConditionalAirStuff</string>
+            <key>label</key>            <string>Hide AirStuff section if off</string>
+            <key>PostNotification</key> <string>com.tweaksbylogan.SimpleCentersPrefs/settingschanged</string>
+        </dict>
+
+	<dict>
+	    <key>label</key>		<string>AirPlay Section</string>
+            <key>cell</key>             <string>PSGroupCell</string>
+        </dict>
+
+	<dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>default</key>          <false/>
+            <key>defaults</key>         <string>com.tweaksbylogan.SimpleCentersPrefs</string>
+            <key>key</key>              <string>alwaysShowAirPlay</string>
+            <key>label</key>            <string>Always show AirPlay section</string>
+            <key>PostNotification</key> <string>com.tweaksbylogan.SimpleCentersPrefs/settingschanged</string>
+        </dict>
+
+	<dict>
+	    <key>label</key>		<string>Blur and CC Background</string>
+            <key>cell</key>             <string>PSGroupCell</string>
+        </dict>
+
+	<dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>default</key>          <false/>
+            <key>defaults</key>         <string>com.tweaksbylogan.SimpleCentersPrefs</string>
+            <key>key</key>              <string>noCCBlur</string>
+            <key>label</key>            <string>Remove CC blur</string>
+            <key>PostNotification</key> <string>com.tweaksbylogan.SimpleCentersPrefs/settingschanged</string>
+        </dict>
+
+	<dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>default</key>          <false/>
+            <key>defaults</key>         <string>com.tweaksbylogan.SimpleCentersPrefs</string>
+            <key>key</key>              <string>noCCBG</string>
+            <key>label</key>            <string>Make CC background clear</string>
+            <key>PostNotification</key> <string>com.tweaksbylogan.SimpleCentersPrefs/settingschanged</string>
+        </dict>
+
+	<dict>
+	    <key>label</key>		<string>Backgrounds and Separators</string>
+            <key>cell</key>             <string>PSGroupCell</string>
+        </dict>
+	
+	<dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>default</key>          <true/>
+            <key>defaults</key>         <string>com.tweaksbylogan.SimpleCentersPrefs</string>
+            <key>key</key>              <string>hideButtonBG</string>
+            <key>label</key>            <string>Hide button backgrounds</string>
+            <key>PostNotification</key> <string>com.tweaksbylogan.SimpleCentersPrefs/settingschanged</string>
+        </dict>
+
+	<dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>default</key>          <true/>
+            <key>defaults</key>         <string>com.tweaksbylogan.SimpleCentersPrefs</string>
+            <key>key</key>              <string>hideDarkBG</string>
+            <key>label</key>            <string>Hide dark backgrounds</string>
+            <key>PostNotification</key> <string>com.tweaksbylogan.SimpleCentersPrefs/settingschanged</string>
+        </dict>
+
+	<dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>default</key>          <true/>
+            <key>defaults</key>         <string>com.tweaksbylogan.SimpleCentersPrefs</string>
+            <key>key</key>              <string>hideSeparators</string>
+            <key>label</key>            <string>Hide separators in CC</string>
+            <key>PostNotification</key> <string>com.tweaksbylogan.SimpleCentersPrefs/settingschanged</string>
+        </dict>
+
+	<dict>
+	    <key>label</key>		<string>Chevron and Grabber</string>
+            <key>cell</key>             <string>PSGroupCell</string>
+        </dict>
+	
+	<dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>default</key>          <false/>
+            <key>defaults</key>         <string>com.tweaksbylogan.SimpleCentersPrefs</string>
+            <key>key</key>              <string>hideGrabber</string>
+            <key>label</key>            <string>Hide chevron in CC</string>
+            <key>PostNotification</key> <string>com.tweaksbylogan.SimpleCentersPrefs/settingschanged</string>
+        </dict>
+
+	<dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>default</key>          <false/>
+            <key>defaults</key>         <string>com.tweaksbylogan.SimpleCentersPrefs</string>
+            <key>key</key>              <string>makeCCGrabberSame</string>
+            <key>label</key>            <string>Make CC chevron stay the same</string>
+            <key>PostNotification</key> <string>com.tweaksbylogan.SimpleCentersPrefs/settingschanged</string>
+        </dict>
+
+	<dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>default</key>          <false/>
+            <key>defaults</key>         <string>com.tweaksbylogan.SimpleCentersPrefs</string>
+            <key>key</key>              <string>hideCCGrabber</string>
+            <key>label</key>            <string>Hide slide-up CC grabber</string>
+            <key>PostNotification</key> <string>com.tweaksbylogan.SimpleCentersPrefs/settingschanged</string>
+        </dict>
+
+	<dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>default</key>          <false/>
+            <key>defaults</key>         <string>com.tweaksbylogan.SimpleCentersPrefs</string>
+            <key>key</key>              <string>hideLSCCGrabber</string>
+            <key>label</key>            <string>Hide LS CC grabber</string>
+            <key>PostNotification</key> <string>com.tweaksbylogan.SimpleCentersPrefs/settingschanged</string>
+        </dict>
+
+	<dict>
+	    <key>label</key>		<string>Brightness Functionality</string>
+            <key>cell</key>             <string>PSGroupCell</string>
+        </dict>
+
+	<dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>default</key>          <true/>
+            <key>defaults</key>         <string>com.tweaksbylogan.SimpleCentersPrefs</string>
+            <key>key</key>              <string>brightnessHideCC</string>
+            <key>label</key>            <string>Hide CC when toggling</string>
+            <key>PostNotification</key> <string>com.tweaksbylogan.SimpleCentersPrefs/settingschanged</string>
+        </dict>
+
+	<dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>default</key>          <true/>
+            <key>defaults</key>         <string>com.tweaksbylogan.SimpleCentersPrefs</string>
+            <key>key</key>              <string>brightnessHideTint</string>
+            <key>label</key>            <string>Remove tint when toggling</string>
+            <key>PostNotification</key> <string>com.tweaksbylogan.SimpleCentersPrefs/settingschanged</string>
+        </dict>
+
+	<dict>
+	    <key>label</key>		<string>Extra Functionality</string>
+            <key>cell</key>             <string>PSGroupCell</string>
+        </dict>
+
+	<dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>default</key>          <false/>
+            <key>defaults</key>         <string>com.tweaksbylogan.SimpleCentersPrefs</string>
+            <key>key</key>              <string>oldCCBounce</string>
+            <key>label</key>            <string>Use old CC bounce</string>
+            <key>PostNotification</key> <string>com.tweaksbylogan.SimpleCentersPrefs/settingschanged</string>
+        </dict>
+
+	<dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>default</key>          <false/>
+            <key>defaults</key>         <string>com.tweaksbylogan.SimpleCentersPrefs</string>
+            <key>key</key>              <string>noStatusText</string>
+            <key>label</key>            <string>Remove the toggling text</string>
+            <key>PostNotification</key> <string>com.tweaksbylogan.SimpleCentersPrefs/settingschanged</string>
+        </dict>
+
+	<dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>default</key>          <true/>
+            <key>defaults</key>         <string>com.tweaksbylogan.SimpleCentersPrefs</string>
+            <key>key</key>              <string>fixLSCC</string>
+            <key>label</key>            <string>Fix CC not showing on LS</string>
+            <key>PostNotification</key> <string>com.tweaksbylogan.SimpleCentersPrefs/settingschanged</string>
+        </dict>
+
+	<dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>default</key>          <false/>
+            <key>defaults</key>         <string>com.tweaksbylogan.SimpleCentersPrefs</string>
+            <key>key</key>              <string>lockToggles</string>
+            <key>label</key>            <string>Lock all toggle states</string>
+            <key>PostNotification</key> <string>com.tweaksbylogan.SimpleCentersPrefs/settingschanged</string>
+        </dict>
+
+	<dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>default</key>          <false/>
+            <key>defaults</key>         <string>com.tweaksbylogan.SimpleCentersPrefs</string>
+            <key>key</key>              <string>landscape</string>
+            <key>label</key>            <string>Activate tweak in landscape</string>
+            <key>PostNotification</key> <string>com.tweaksbylogan.SimpleCentersPrefs/settingschanged</string>
+        </dict>
+
+	<dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>default</key>          <false/>
+            <key>defaults</key>         <string>com.tweaksbylogan.SimpleCentersPrefs</string>
+            <key>key</key>              <string>singleSwipeCC</string>
+            <key>label</key>            <string>Don’t show CC on first swipe</string>
+            <key>PostNotification</key> <string>com.tweaksbylogan.SimpleCentersPrefs/settingschanged</string>
+        </dict>
+
+	<dict>
+	    <key>label</key>		<string>Disable</string>
+            <key>cell</key>             <string>PSGroupCell</string>
+        </dict>
+
+	<dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>default</key>          <false/>
+            <key>defaults</key>         <string>com.tweaksbylogan.SimpleCentersPrefs</string>
+            <key>key</key>              <string>disableCC</string>
+            <key>label</key>            <string>Completely disable CC</string>
+            <key>PostNotification</key> <string>com.tweaksbylogan.SimpleCentersPrefs/settingschanged</string>
+        </dict>
+
+    </array>
+
+    <key>title</key>
+
+    <string>Control Center</string>
+
+</dict>
+
+</plist>

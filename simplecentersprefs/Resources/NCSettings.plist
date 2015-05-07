@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+
+<plist version="1.0">
+
+<dict>
+
+    <key>items</key>
+
+    <array>
+
+	<dict>
+	    <key>label</key>		<string>Tabs</string>
+            <key>cell</key>             <string>PSGroupCell</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>default</key>          <true/>
+            <key>defaults</key>         <string>com.tweaksbylogan.SimpleCentersPrefs</string>
+            <key>key</key>              <string>noTabs</string>
+            <key>label</key>            <string>Hide NC tabs</string>
+            <key>PostNotification</key> <string>com.tweaksbylogan.SimpleCentersPrefs/settingschanged</string>
+        </dict>
+
+	<dict>
+	    <key>label</key>		<string>Date</string>
+            <key>cell</key>             <string>PSGroupCell</string>
+        </dict>
+
+	<dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>default</key>          <false/>
+            <key>defaults</key>         <string>com.tweaksbylogan.SimpleCentersPrefs</string>
+            <key>key</key>              <string>noDate</string>
+            <key>label</key>            <string>Hide Today date</string>
+            <key>PostNotification</key> <string>com.tweaksbylogan.SimpleCentersPrefs/settingschanged</string>
+        </dict>
+
+	<dict>
+	    <key>label</key>		<string>Today Headers</string>
+            <key>cell</key>             <string>PSGroupCell</string>
+        </dict>
+
+	<dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>default</key>          <true/>
+            <key>defaults</key>         <string>com.tweaksbylogan.SimpleCentersPrefs</string>
+            <key>key</key>              <string>todayHeaders</string>
+            <key>label</key>            <string>Hide Today headers</string>
+            <key>PostNotification</key> <string>com.tweaksbylogan.SimpleCentersPrefs/settingschanged</string>
+        </dict>
+
+	<dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>default</key>          <false/>
+            <key>defaults</key>         <string>com.tweaksbylogan.SimpleCentersPrefs</string>
+            <key>key</key>              <string>noTodayBG</string>
+            <key>label</key>            <string>Hide Today header background</string>
+            <key>PostNotification</key> <string>com.tweaksbylogan.SimpleCentersPrefs/settingschanged</string>
+        </dict>
+
+	<dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>default</key>          <false/>
+            <key>defaults</key>         <string>com.tweaksbylogan.SimpleCentersPrefs</string>
+            <key>key</key>              <string>noTodayIcon</string>
+            <key>label</key>            <string>Hide Today header icon</string>
+            <key>PostNotification</key> <string>com.tweaksbylogan.SimpleCentersPrefs/settingschanged</string>
+        </dict>
+
+	<dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>default</key>          <false/>
+            <key>defaults</key>         <string>com.tweaksbylogan.SimpleCentersPrefs</string>
+            <key>key</key>              <string>noTodayText</string>
+            <key>label</key>            <string>Hide Today header text</string>
+            <key>PostNotification</key> <string>com.tweaksbylogan.SimpleCentersPrefs/settingschanged</string>
+        </dict>
+
+	<dict>
+	    <key>label</key>		<string>Notification Headers</string>
+            <key>cell</key>             <string>PSGroupCell</string>
+        </dict>
+
+	<dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>default</key>          <false/>
+            <key>defaults</key>         <string>com.tweaksbylogan.SimpleCentersPrefs</string>
+            <key>key</key>              <string>notificationHeaders</string>
+            <key>label</key>            <string>Hide notification headers</string>
+            <key>PostNotification</key> <string>com.tweaksbylogan.SimpleCentersPrefs/settingschanged</string>
+        </dict>
+
+	<dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>default</key>          <true/>
+            <key>defaults</key>         <string>com.tweaksbylogan.SimpleCentersPrefs</string>
+            <key>key</key>              <string>noHeaderBG</string>
+            <key>label</key>            <string>Hide NC header background</string>
+            <key>PostNotification</key> <string>com.tweaksbylogan.SimpleCentersPrefs/settingschanged</string>
+        </dict>
+
+	<dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>default</key>          <false/>
+            <key>defaults</key>         <string>com.tweaksbylogan.SimpleCentersPrefs</string>
+            <key>key</key>              <string>noHeaderIcon</string>
+            <key>label</key>            <string>Hide notification header icon</string>
+            <key>PostNotification</key> <string>com.tweaksbylogan.SimpleCentersPrefs/settingschanged</string>
+        </dict>
+
+	<dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>default</key>          <true/>
+            <key>defaults</key>         <string>com.tweaksbylogan.SimpleCentersPrefs</string>
+            <key>key</key>              <string>noHeaderText</string>
+            <key>label</key>            <string>Hide notification header text</string>
+            <key>PostNotification</key> <string>com.tweaksbylogan.SimpleCentersPrefs/settingschanged</string>
+        </dict>
+
+	<dict>
+	    <key>label</key>		<string>Extra Functionality</string>
+            <key>cell</key>             <string>PSGroupCell</string>
+        </dict>
+
+	<dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>default</key>          <false/>
+            <key>defaults</key>         <string>com.tweaksbylogan.SimpleCentersPrefs</string>
+            <key>key</key>              <string>NCIfNotifications</string>
+            <key>label</key>            <string>Open Today page if no notifications</string>
+            <key>PostNotification</key> <string>com.tweaksbylogan.SimpleCentersPrefs/settingschanged</string>
+        </dict>
+
+	<dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>default</key>          <true/>
+            <key>defaults</key>         <string>com.tweaksbylogan.SimpleCentersPrefs</string>
+            <key>key</key>              <string>oneTapClear</string>
+            <key>label</key>            <string>Single tap to clear notifications</string>
+            <key>PostNotification</key> <string>com.tweaksbylogan.SimpleCentersPrefs/settingschanged</string>
+        </dict>
+	
+	<dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>default</key>          <true/>
+            <key>defaults</key>         <string>com.tweaksbylogan.SimpleCentersPrefs</string>
+            <key>key</key>              <string>clearNCButtons</string>
+            <key>label</key>            <string>Clear notification buttons</string>
+            <key>PostNotification</key> <string>com.tweaksbylogan.SimpleCentersPrefs/settingschanged</string>
+        </dict>
+
+	<dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>default</key>          <false/>
+            <key>defaults</key>         <string>com.tweaksbylogan.SimpleCentersPrefs</string>
+            <key>key</key>              <string>markBadge</string>
+            <key>label</key>            <string>Mark badge as read when clearing notifications</string>
+            <key>PostNotification</key> <string>com.tweaksbylogan.SimpleCentersPrefs/settingschanged</string>
+        </dict>
+
+	<dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>default</key>          <false/>
+            <key>defaults</key>         <string>com.tweaksbylogan.SimpleCentersPrefs</string>
+            <key>key</key>              <string>singleSwipeNC</string>
+            <key>label</key>            <string>Don’t show NC on first swipe</string>
+            <key>PostNotification</key> <string>com.tweaksbylogan.SimpleCentersPrefs/settingschanged</string>
+        </dict>
+
+	<dict>
+	    <key>label</key>		<string>Notification “X”</string>
+            <key>cell</key>             <string>PSGroupCell</string>
+        </dict>
+
+	<dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>default</key>          <false/>
+            <key>defaults</key>         <string>com.tweaksbylogan.SimpleCentersPrefs</string>
+            <key>key</key>              <string>noX</string>
+            <key>label</key>            <string>Change notification X to Clear</string>
+            <key>PostNotification</key> <string>com.tweaksbylogan.SimpleCentersPrefs/settingschanged</string>
+        </dict>
+
+	<dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>default</key>          <false/>
+            <key>defaults</key>         <string>com.tweaksbylogan.SimpleCentersPrefs</string>
+            <key>key</key>              <string>hideX</string>
+            <key>label</key>            <string>Hide notification header X</string>
+            <key>PostNotification</key> <string>com.tweaksbylogan.SimpleCentersPrefs/settingschanged</string>
+        </dict>
+
+	<dict>
+	    <key>label</key>		<string>Blur and NC Background</string>
+            <key>cell</key>             <string>PSGroupCell</string>
+        </dict>
+
+	<dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>default</key>          <false/>
+            <key>defaults</key>         <string>com.tweaksbylogan.SimpleCentersPrefs</string>
+            <key>key</key>              <string>noNCBlur</string>
+            <key>label</key>            <string>Remove NC blur</string>
+            <key>PostNotification</key> <string>com.tweaksbylogan.SimpleCentersPrefs/settingschanged</string>
+        </dict>
+
+	<dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>default</key>          <false/>
+            <key>defaults</key>         <string>com.tweaksbylogan.SimpleCentersPrefs</string>
+            <key>key</key>              <string>noNCBG</string>
+            <key>label</key>            <string>Make NC background clear</string>
+            <key>PostNotification</key> <string>com.tweaksbylogan.SimpleCentersPrefs/settingschanged</string>
+        </dict>
+
+	<dict>
+	    <key>label</key>		<string>Separators and Lines</string>
+            <key>cell</key>             <string>PSGroupCell</string>
+        </dict>
+
+	<dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>default</key>          <true/>
+            <key>defaults</key>         <string>com.tweaksbylogan.SimpleCentersPrefs</string>
+            <key>key</key>              <string>bottomSeparator</string>
+            <key>label</key>            <string>Hide bottom separator</string>
+            <key>PostNotification</key> <string>com.tweaksbylogan.SimpleCentersPrefs/settingschanged</string>
+        </dict>
+
+	<dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>default</key>          <true/>
+            <key>defaults</key>         <string>com.tweaksbylogan.SimpleCentersPrefs</string>
+            <key>key</key>              <string>editSeparator</string>
+            <key>label</key>            <string>Hide Edit button separator</string>
+            <key>PostNotification</key> <string>com.tweaksbylogan.SimpleCentersPrefs/settingschanged</string>
+        </dict>
+
+	<dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>default</key>          <true/>
+            <key>defaults</key>         <string>com.tweaksbylogan.SimpleCentersPrefs</string>
+            <key>key</key>              <string>noNotificationLines</string>
+            <key>label</key>            <string>Shrink notification separators</string>
+            <key>PostNotification</key> <string>com.tweaksbylogan.SimpleCentersPrefs/settingschanged</string>
+        </dict>
+
+	<dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>default</key>          <true/>
+            <key>defaults</key>         <string>com.tweaksbylogan.SimpleCentersPrefs</string>
+            <key>key</key>              <string>lines</string>
+            <key>label</key>            <string>Hide various NC lines</string>
+            <key>PostNotification</key> <string>com.tweaksbylogan.SimpleCentersPrefs/settingschanged</string>
+        </dict>
+
+	<dict>
+	    <key>label</key>		<string>“Edit” Button</string>
+            <key>cell</key>             <string>PSGroupCell</string>
+        </dict>
+
+	<dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>default</key>          <false/>
+            <key>defaults</key>         <string>com.tweaksbylogan.SimpleCentersPrefs</string>
+            <key>key</key>              <string>noEditButton</string>
+            <key>label</key>            <string>Hide Edit button</string>
+            <key>PostNotification</key> <string>com.tweaksbylogan.SimpleCentersPrefs/settingschanged</string>
+        </dict>
+
+	<dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>default</key>          <true/>
+            <key>defaults</key>         <string>com.tweaksbylogan.SimpleCentersPrefs</string>
+            <key>key</key>              <string>noNewWidget</string>
+            <key>label</key>            <string>Hide new widget label</string>
+            <key>PostNotification</key> <string>com.tweaksbylogan.SimpleCentersPrefs/settingschanged</string>
+        </dict>
+
+	<dict>
+	    <key>label</key>		<string>Chevron and Grabber</string>
+            <key>cell</key>             <string>PSGroupCell</string>
+        </dict>
+
+	<dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>default</key>          <false/>
+            <key>defaults</key>         <string>com.tweaksbylogan.SimpleCentersPrefs</string>
+            <key>key</key>              <string>noChevron</string>
+            <key>label</key>            <string>Hide NC chevron</string>
+            <key>PostNotification</key> <string>com.tweaksbylogan.SimpleCentersPrefs/settingschanged</string>
+        </dict>
+
+	<dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>default</key>          <false/>
+            <key>defaults</key>         <string>com.tweaksbylogan.SimpleCentersPrefs</string>
+            <key>key</key>              <string>makeNCGrabberSame</string>
+            <key>label</key>            <string>Make NC chevron stay the same</string>
+            <key>PostNotification</key> <string>com.tweaksbylogan.SimpleCentersPrefs/settingschanged</string>
+        </dict>
+
+	<dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>default</key>          <false/>
+            <key>defaults</key>         <string>com.tweaksbylogan.SimpleCentersPrefs</string>
+            <key>key</key>              <string>noGrabber</string>
+            <key>label</key>            <string>Hide drop-down NC grabber</string>
+            <key>PostNotification</key> <string>com.tweaksbylogan.SimpleCentersPrefs/settingschanged</string>
+        </dict>
+
+
+	<dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>default</key>          <false/>
+            <key>defaults</key>         <string>com.tweaksbylogan.SimpleCentersPrefs</string>
+            <key>key</key>              <string>noLSNCGrabber</string>
+            <key>label</key>            <string>Hide LS NC grabber</string>
+            <key>PostNotification</key> <string>com.tweaksbylogan.SimpleCentersPrefs/settingschanged</string>
+        </dict>
+
+	<dict>
+	    <key>label</key>		<string>Notifications</string>
+            <key>cell</key>             <string>PSGroupCell</string>
+        </dict>
+
+	<dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>default</key>          <false/>
+            <key>defaults</key>         <string>com.tweaksbylogan.SimpleCentersPrefs</string>
+            <key>key</key>              <string>moreLines</string>
+            <key>label</key>            <string>Increase notification size by 2</string>
+            <key>PostNotification</key> <string>com.tweaksbylogan.SimpleCentersPrefs/settingschanged</string>
+        </dict>
+
+	<dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>default</key>          <false/>
+            <key>defaults</key>         <string>com.tweaksbylogan.SimpleCentersPrefs</string>
+            <key>key</key>              <string>hidePreviews</string>
+            <key>label</key>            <string>Hide notification previews</string>
+            <key>PostNotification</key> <string>com.tweaksbylogan.SimpleCentersPrefs/settingschanged</string>
+        </dict>
+
+	<dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>default</key>          <false/>
+            <key>defaults</key>         <string>com.tweaksbylogan.SimpleCentersPrefs</string>
+            <key>key</key>              <string>hideBanners</string>
+            <key>label</key>            <string>Hide notification banners</string>
+            <key>PostNotification</key> <string>com.tweaksbylogan.SimpleCentersPrefs/settingschanged</string>
+        </dict>
+
+	<dict>
+	    <key>label</key>		<string>Status Bar</string>
+            <key>cell</key>             <string>PSGroupCell</string>
+        </dict>
+
+	<dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>default</key>          <true/>
+            <key>defaults</key>         <string>com.tweaksbylogan.SimpleCentersPrefs</string>
+            <key>key</key>              <string>clearStatus</string>
+            <key>label</key>            <string>Clear status bar</string>
+            <key>PostNotification</key> <string>com.tweaksbylogan.SimpleCentersPrefs/settingschanged</string>
+        </dict>
+
+	<dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>default</key>          <true/>
+            <key>defaults</key>         <string>com.tweaksbylogan.SimpleCentersPrefs</string>
+            <key>key</key>              <string>noStatus</string>
+            <key>label</key>            <string>Remove status bar</string>
+            <key>PostNotification</key> <string>com.tweaksbylogan.SimpleCentersPrefs/settingschanged</string>
+        </dict>
+
+	<dict>
+	    <key>label</key>		<string>Text</string>
+            <key>cell</key>             <string>PSGroupCell</string>
+        </dict>
+
+	<dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>default</key>          <false/>
+            <key>defaults</key>         <string>com.tweaksbylogan.SimpleCentersPrefs</string>
+            <key>key</key>              <string>noWeather</string>
+            <key>label</key>            <string>Hide weather info</string>
+            <key>PostNotification</key> <string>com.tweaksbylogan.SimpleCentersPrefs/settingschanged</string>
+        </dict>
+
+	<dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>default</key>          <false/>
+            <key>defaults</key>         <string>com.tweaksbylogan.SimpleCentersPrefs</string>
+            <key>key</key>              <string>noNotificationsText</string>
+            <key>label</key>            <string>Hide “No Notifications” text</string>
+            <key>PostNotification</key> <string>com.tweaksbylogan.SimpleCentersPrefs/settingschanged</string>
+        </dict>
+
+	<dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>default</key>          <true/>
+            <key>defaults</key>         <string>com.tweaksbylogan.SimpleCentersPrefs</string>
+            <key>key</key>              <string>noText</string>
+            <key>label</key>            <string>Hide attribution text</string>
+            <key>PostNotification</key> <string>com.tweaksbylogan.SimpleCentersPrefs/settingschanged</string>
+        </dict>
+
+	<dict>
+	    <key>label</key>		<string>Today Section</string>
+            <key>cell</key>             <string>PSGroupCell</string>
+        </dict>
+
+	<dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>default</key>          <false/>
+            <key>defaults</key>         <string>com.tweaksbylogan.SimpleCentersPrefs</string>
+            <key>key</key>              <string>noNotifications</string>
+            <key>label</key>            <string>Always open Today section</string>
+            <key>PostNotification</key> <string>com.tweaksbylogan.SimpleCentersPrefs/settingschanged</string>
+        </dict>
+
+	<dict>
+	    <key>label</key>		<string>Notification Section</string>
+            <key>cell</key>             <string>PSGroupCell</string>
+        </dict>
+
+	<dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>default</key>          <false/>
+            <key>defaults</key>         <string>com.tweaksbylogan.SimpleCentersPrefs</string>
+            <key>key</key>              <string>noToday</string>
+            <key>label</key>            <string>Always open Notification section</string>
+            <key>PostNotification</key> <string>com.tweaksbylogan.SimpleCentersPrefs/settingschanged</string>
+        </dict>
+
+	<dict>
+	    <key>label</key>		<string>Disable</string>
+            <key>cell</key>             <string>PSGroupCell</string>
+        </dict>
+
+	<dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>default</key>          <false/>
+            <key>defaults</key>         <string>com.tweaksbylogan.SimpleCentersPrefs</string>
+            <key>key</key>              <string>disableNC</string>
+            <key>label</key>            <string>Completely disable NC</string>
+            <key>PostNotification</key> <string>com.tweaksbylogan.SimpleCentersPrefs/settingschanged</string>
+        </dict>
+
+    </array>
+
+    <key>title</key>
+
+    <string>Notification Center</string>
+
+</dict>
+
+</plist>

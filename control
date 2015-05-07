@@ -1,0 +1,9 @@
+Package: com.TweaksByLogan.SimpleCenters
+Name: SimpleCenters
+Depends: mobilesubstrate
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Complete control over your NC and CC!
+Maintainer: Logan O'Connell
+Author: Logan O'Connell
+Section: Tweaks
