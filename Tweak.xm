@@ -40,7 +40,7 @@
 @interface SBNotificationVibrantButton : UIView
 @end
 
-@interface SBNewWidgetLabel : UIView
+@interface SBNewWidgetsButton : UIView
 @end
 
 @interface SBTodayBulletinCell : UIView
@@ -516,7 +516,6 @@ static void loadPrefs()
 
 %hook SBTodayTableFooterView
 -(void)layoutSubviews {
-
 	%orig;
 
 	if (editSeparator && enabled) {
@@ -540,14 +539,14 @@ static void loadPrefs()
 		[editButton setHidden:YES];}
 
 	if (noNewWidget && enabled) {
-		SBNewWidgetLabel *newWidgetLabel = MSHookIvar<SBNewWidgetLabel *>(self, "_newWidgetsLabel");
-		CGRect newFrame=newWidgetLabel.frame;
-		CGRect newBounds=newWidgetLabel.bounds;
+		SBNewWidgetsButton *newWidgetsButton = MSHookIvar<SBNewWidgetsButton *>(self, "_newWidgetsButton");
+		CGRect newFrame=newWidgetsButton.frame;
+		CGRect newBounds=newWidgetsButton.bounds;
 		newFrame.size.height=0;
 		newBounds.size.height=0;
-		[newWidgetLabel setFrame:newFrame];
-		[newWidgetLabel setBounds:newBounds];
-		[newWidgetLabel setHidden:YES];}
+		[newWidgetsButton setFrame:newFrame];
+		[newWidgetsButton setBounds:newBounds];
+		[newWidgetsButton setHidden:YES];}
 	}
 %end
 
